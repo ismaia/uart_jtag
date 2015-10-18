@@ -1,0 +1,24 @@
+CAPI=1
+[main]
+description = JTAG-UART bridge for OpenRISC
+
+[verilog]
+src_files = 
+           rtl/verilog/raminfr.v
+           rtl/verilog/uart16550_jtag.v
+           rtl/verilog/uart_debug_if.v
+           rtl/verilog/uart_receiver_jtag.v
+           rtl/verilog/uart_regs_jtag.v
+           rtl/verilog/uart_rfifo.v
+           rtl/verilog/uart_sync_flops.v
+           rtl/verilog/uart_tfifo.v
+           rtl/verilog/uart_transmitter_jtag.v
+           rtl/verilog/uart_wb.v
+
+[provider]
+name = github
+user = ismaia
+repo = uart_jtag
+version = master
+cachable = true
+
