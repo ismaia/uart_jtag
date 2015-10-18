@@ -1,6 +1,7 @@
 # uart_jtag
 
 UART-JTAG  provides jtag-uart bridge to control OpenRISC via USB Cable and nios2-terminal
+
 usb->serial adater is not needed anymore
 
 This module is ready to use in orpsoc-cores
